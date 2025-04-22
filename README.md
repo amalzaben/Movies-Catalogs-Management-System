@@ -21,6 +21,19 @@ Each movie is hashed based on its title and stored in a specialized data structu
   - `HashTable` with AVL tree chaining  
   - `AVLTree` 
   - `SinglyLinkedList` for auxiliary data handling
+## 🌲 Example Logic
+
+- **Hash Function**  
+  Generates a hash key based on the movie title’s characters to determine its storage cell in the hash table.
+
+- **AVL Tree Insertion**  
+  Ensures each tree remains height-balanced after every insertion, keeping search operations efficient.
+
+- **Rating-Based Analysis**  
+  Traverses each AVL tree to identify:
+  - **Best-rated movie** (highest score)
+  - **Worst-rated movie** (lowest score)
+  - Visualizes ratings with a dynamic star system in the UI
 
 ## 🧰 Tech Stack
 
